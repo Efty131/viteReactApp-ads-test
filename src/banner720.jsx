@@ -33,6 +33,7 @@ const banner720 = () => {
 
   return (
     <div>
+        <p style={{textAlign: 'center'}}>Banner720</p>
       {/* The ad will be rendered here */}
       <div id="ad-container"></div>
     </div>

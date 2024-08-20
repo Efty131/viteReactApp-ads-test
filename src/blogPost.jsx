@@ -1,5 +1,5 @@
 import React from 'react'
-// import AdsterraAd from './AdsterraAd';
+import AdsterraAd from './adsterraAd';
 
 const blogPost = () => {
     return (
@@ -12,7 +12,7 @@ const blogPost = () => {
           
           {/* Video with proper margin and padding */}
           <div style={{ textAlign: 'center', margin: '40px 0', padding: '10px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}>
-            <video controls style={{ maxWidth: '100%', borderRadius: '8px' }}>
+            <video controls style={{ maxWidth: '50%', borderRadius: '8px' }} poster='/tom.webp'>
               <source src="/tom.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -23,7 +23,7 @@ const blogPost = () => {
           <p>Praesent eget risus vitae arcu vehicula aliquam et quis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur.</p>
     
           {/* Adsterra Ad Component */}
-          {/* <AdsterraAd /> */}
+          <AdsterraAd />
     
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur. Praesent eget risus vitae arcu vehicula aliquam et quis dolor.</p>
           

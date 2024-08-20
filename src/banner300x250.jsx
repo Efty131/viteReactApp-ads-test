@@ -34,7 +34,7 @@ const Banner300 = () => {
   return (
     <div>
       {/* This div will hold the 300x250 banner ad */}
-      <p style={{textAlign: 'center'}}>Banner350x250</p>
+      <p style={{textAlign: 'center'}}>Banner350x250 below:</p>
       <div id="banner300-container"></div>
     </div>
   );

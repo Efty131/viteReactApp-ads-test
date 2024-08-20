@@ -20,7 +20,7 @@ const NativeBanner = () => {
 
   return (
     <div>
-        <p style={{textAlign: 'center'}}>Native Banner</p>
+        <p style={{textAlign: 'center'}}>Native Banner below:</p>
       {/* This div will hold the native banner ad */}
       <div id="container-d3c8996efea361b31704642e35e4f89a"></div>
     </div>

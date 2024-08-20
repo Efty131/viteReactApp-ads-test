@@ -18,7 +18,7 @@ function AdsterraAd() {
   }, []);
 
   return (
-    <div id="ad-container" style={{ textAlign: 'center', margin: '20px 0' }}>
+    <div id="ad-container">
       {/* This is where the Adsterra ad will be displayed */}
     </div>
   );

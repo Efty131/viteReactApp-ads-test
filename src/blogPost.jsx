@@ -1,5 +1,5 @@
 import React from 'react'
-import AdsterraAd from './adsterraAd';
+
 
 const blogPost = () => {
     return (
@@ -22,9 +22,6 @@ const blogPost = () => {
           
           <p>Praesent eget risus vitae arcu vehicula aliquam et quis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur.</p>
     
-          {/* Adsterra Ad Component */}
-          <p style={{textAlign: 'center'}}>Ad 320x50 below:</p>
-          <AdsterraAd />
     
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur. Praesent eget risus vitae arcu vehicula aliquam et quis dolor.</p>
           

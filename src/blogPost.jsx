@@ -1,9 +1,11 @@
 import React from 'react'
 import AdsterraAd from './adsterraAd';
+import Banner720 from './banner720';
 
 const blogPost = () => {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif' }}>
+          <Banner720 />
           <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>How to Integrate Video Ads in Your React App</h1>
           
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur. Praesent eget risus vitae arcu vehicula aliquam et quis dolor.</p>
@@ -23,6 +25,7 @@ const blogPost = () => {
           <p>Praesent eget risus vitae arcu vehicula aliquam et quis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur.</p>
     
           {/* Adsterra Ad Component */}
+          <p style={{textAlign: 'center'}}>Ad 320x50</p>
           <AdsterraAd />
     
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel malesuada velit, sed cursus nisi. Nulla facilisi. Integer non orci quis leo sollicitudin consectetur. Praesent eget risus vitae arcu vehicula aliquam et quis dolor.</p>

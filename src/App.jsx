@@ -1,14 +1,14 @@
 import React from 'react';
 import BlogPost from './blogPost';
 import NativeBanner from './nativeBanner';
-import AdsterraAD from './adsterraAd';
+import SocialBar from './socialBar';
 
 function App() {
   return (
     <>
       <BlogPost />
       <NativeBanner />
-      <AdsterraAD />
+      <SocialBar />
     </>
   );
 }
